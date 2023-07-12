@@ -1,0 +1,72 @@
+#actions{
+    background-color: rgb(250, 239, 218);
+    border: 1px solid black;
+    width: 700px;
+    margin: 0 auto;
+    display: flex; /* Use flexbox */
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center elements horizontally */
+}
+
+#title {
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+#author {
+    display: block;
+    font-size: 23px;
+    color: rgb(179, 0, 0);
+    text-align: left;
+    margin-left: 15px;
+    margin-bottom: 0px;
+}
+
+#text {
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    text-align: left;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 10px;
+}
+
+#header {
+    background-color: rgb(255, 210, 120);
+}
+
+#image {
+    min-width: 100px;
+    min-height: 150px;
+    max-width: 500px;
+    max-height: 600px;
+    margin: 0 auto; /* Center horizontally */
+    display: block; /* Ensures the image is treated as a block element */
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.feed {
+    background-color: rgb(250, 239, 218);
+    border: 1px solid black;
+    width: 700px;
+    margin: 0 auto;
+    display: flex; /* Use flexbox */
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center elements horizontally */
+}
+
+body {
+    background-color: #cfa526;
+    height: 100%;
+    margin: 0;
+}
+
+#likes{
+    margin-left: 10px;
+}

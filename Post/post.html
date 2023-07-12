@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="script.js"></script>
+
+</head>
+
+<body>
+    <div class="center-container">
+        <div id="post">
+            <img id="logo" src="images/logo.png" alt="logo"><br>
+            <form method="post" action="post.php" enctype="multipart/form-data">
+                <label for="title">Title:</label>
+                <input type="text" id="title" name="title"><br><br>
+                <label id="textLabel" for="text">Text:</label><br>
+                <textarea id="text" name="text" rows="4" cols="50"></textarea><br><br>
+                <label for="image">File:</label>
+                <input type="file" id="file" name="file"><br><br>
+                <input type="submit" id="submit" value="Post">
+                <input type="button" id="back" value="Back" onclick="location.href = '../Feed/feed.html'">
+                <t id="errorMessage" style="display: none;"></t>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

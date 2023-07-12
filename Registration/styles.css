@@ -1,0 +1,33 @@
+#errorMessage{
+    color: gold;
+    font-size: 24px;
+}
+
+body {
+    background-color: #cfa526;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+  }
+  
+.center-container {
+width: 100%;
+max-width: 400px; /* Adjust the width as per your requirements */
+}
+
+#registration {
+border: 2px solid black;
+background-color: #88001B;
+display: flex; /* Add flex display */
+flex-direction: column; /* Align items vertically */
+align-items: center; /* Center items horizontally */
+justify-content: center; /* Center items vertically */
+/* Additional styles for the login container */
+}
+
+#logo{
+    max-width: 250px;
+    max-height: 80px;
+}

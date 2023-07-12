@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div id="actions">
+        <input type="button" id="post" value="Post" onclick="location.href = '../Post/post.html'">
+        <input type="button" id="logout" value="Log Out" onclick="location.href = '../Log-In/login.html'">
+        <input type="button" id="newFeed" value="New Feed" onclick="location.href = '../Feed/feed.php'">
+    </div>
+    <div class="feed" id="dummyPost" style="display: none">
+        <div id="header">
+            <t id="title">Dummy Title</t><br>
+            <t id="author">Mr. Dummy</t>
+        </div>
+        <div id="content">
+            <p id="text">Dum Dum</p>
+            <img id="image" alt="File">
+        </div>
+        <div id="interactions">
+            <input type="button" id="like" value="Like">
+            <p id="likes">Likes</p>
+        </div>
+    </div>
+</body>
+
+</html>

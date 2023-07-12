@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="script.js"></script>
+
+</head>
+
+<body>
+    <div class="center-container">
+        <div id="registration">
+            <img id="logo" src="images/logo.png" alt="logo"><br>
+            <form method="post" action="registration.php">
+                <label for="username">New Username:</label>
+                <input type="text" id="username" name="username"><br><br>
+                <label for="password">New Password:</label>
+                <input type="password" id="password" name="password"><br><br>
+                <input type="submit" id="submit" value="Enter"><br><br>
+                <input type="button" id="back" value="Back" onclick="location.href = '../Log-In/login.html'">
+                <t id="errorMessage" style="display: none;"></t>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
